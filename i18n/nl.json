@@ -2,124 +2,148 @@
     "nav": {
         "story": "Ons verhaal",
         "event": "De grote dag",
-        "weekend": "Weekendplan",
-        "locationGuide": "Voorbereiden op vakantie",
-        "rsvp": "RSVP",
+        "weekend": "Weekendprogramma",
+        "locationGuide": "Ontdek de omgeving",
+        "rsvp": "Aanwezigheid bevestigen",
         "faq": "Veelgestelde vragen"
     },
     "hero": {
         "date": "30 · 07 · 2027",
-        "names": "Ángeles & Jeroen",
-        "subtitle": "Wij gaan trouwen",
-        "scroll": "Bevestig je aanwezigheid!"
+        "names": "Ángeles\n&\nJeroen",
+        "subtitle": "We gaan trouwen!",
+        "scroll": "Bevestig je komst!"
     },
-
-    
     "countdown": {
-        "title": "Tot onze bruiloft",
+        "title": "Nog",
         "days": "Dagen",
         "hours": "Uren",
         "minutes": "Minuten",
         "seconds": "Seconden"
     },
-
     "story": {
         "eyebrow": "ONS VERHAAL",
         "title": "Het begin van ons verhaal",
-        "text": "Na zoveel mooie momenten samen willen we deze bijzondere dag vieren, omringd door de mensen die ons het meest dierbaar zijn."
+        "text": "Na zoveel mooie momenten samen willen we deze bijzondere dag vieren, omringd door de mensen van wie we het meest houden."
     },
     "event": {
         "eyebrow": "DE GROTE DAG",
         "title": "30 juli",
-
         "googleMaps": "Openen in Google Maps",
         "button": "Bekijk locatie",
         "ceremony": {
             "title": "Ceremonie",
-            "time": "17:00",
-            "place": "Santa María Church",
-            "address": "Madrid, Spanje",
+            "time": "13:30 uur",
+            "place": "Iglesia de San Francisco",
+            "address": "R. de San Francisco, 15704 Santiago de Compostela",
             "button": "Bekijk locatie"
         },
         "party": {
-            "title": "Receptie",
-            "time": "19:00",
-            "place": "La Esperanza Estate",
-            "address": "Madrid, Spanje",
+            "title": "Feest",
+            "time": "Direct na de ceremonie",
+            "place": "Hotel Monumento San Francisco",
+            "address": "Naast de kerk",
             "button": "Bekijk locatie"
+        },
+        "important-time-note": "Zorg ervoor dat je minstens 30 minuten voor aanvang van de ceremonie aanwezig bent, zodat alles op tijd kan beginnen.",
+        "dressCode": {
+            "dressCode": "Kledingvoorschrift",
+            "dressCode-note": "We vragen om formele kleding voor zowel de ceremonie als het feest. We zouden het fijn vinden als onze gasten zich elegant kleden voor deze bijzondere gelegenheid.",
+            "style": "Elegant, formeel en feestelijk"
         }
     },
     "weekend": {
-        "eyebrow": "WEEKENDPLAN",
-        "title": "Itinerary voor het huwelijksweekend",
-        "text": "Weekendactiviteiten."
+        "eyebrow": "WEEKENDPROGRAMMA",
+        "title": "Programma van het trouwweekend",
+        "text": "We zijn bezig met het plannen van borrels en activiteiten voor het weekend. Het programma wordt binnenkort bekendgemaakt... WORDT VERVOLGD!"
     },
     "locationGuide": {
-
-    "eyebrow": "ONTDEK DE OMGEVING",
-
-    "title": "Ontdek de locatie",
-
-    "intro": "Enkele aanbevelingen om van jullie verblijf te genieten.",
-
-    "categories": {
-
-        "food": "Waar te eten",
-
-        "things": "Wat te doen",
-
-        "nearby": "In de buurt",
-
-        "why": "Waarom we deze plek kozen"
-
+        "eyebrow": "ONTDEK DE OMGEVING",
+        "title": "Ontdek Santiago en omgeving",
+        "intro": "Een paar tips om van je verblijf te genieten.",
+        "categories": {
+            "food": "Waar kun je lekker eten?",
+            "things": "Wat is er te doen?",
+            "nearby": "In de buurt",
+            "why": "Waarom we deze plek hebben gekozen"
+        },
+        "food": {
+            "title": "Waar kun je lekker eten?",
+            "text": "Hier vind je een aantal van onze favoriete restaurants."
+        },
+        "things": {
+            "title": "Wat is er te doen?",
+            "text": "Een paar ideeën om van de omgeving te genieten."
+        },
+        "nearby": {
+            "title": "In de buurt",
+            "text": "Mooie plekken in de omgeving die een bezoek waard zijn."
+        },
+        "why": {
+            "title": "Waarom we deze plek hebben gekozen",
+            "text": "Deze plek is bijzonder voor ons omdat..."
+        },
+        "close": "Sluiten"
     },
-
-    "food": {
-
-        "title": "Waar te eten",
-
-        "text": "Hier vinden jullie enkele van onze favoriete restaurants."
-
-    },
-
-    "things": {
-
-        "title": "Wat te doen",
-
-        "text": "Enkele ideeën om van de omgeving te genieten."
-
-    },
-
-    "nearby": {
-
-        "title": "Plaatsen in de buurt",
-
-        "text": "Plaatsen die zeker een bezoek waard zijn."
-
-    },
-
-    "why": {
-
-        "title": "Waarom we deze plek kozen",
-
-        "text": "Deze plek is speciaal voor ons omdat..."
-
-    },
-
-    "close": "Sluiten"
-
-}
-,
     "rsvp": {
-        "eyebrow": "RSVP",
-        "title": "Kom je erbij?",
-        "text": "Bevestig je aanwezigheid vóór 1 augustus.",
+        "eyebrow": "AANWEZIGHEID BEVESTIGEN",
+        "title": "Ben je erbij?",
+        "text": "Laat ons uiterlijk 1 augustus weten of je erbij bent.",
         "button": "Aanwezigheid bevestigen"
     },
     "faq": {
         "eyebrow": "VEELGESTELDE VRAGEN",
         "title": "Veelgestelde vragen",
-        "text": "Antwoorden op de meest gestelde vragen."
+        "text": "Antwoorden op de meestgestelde vragen.",
+        "faqs": [
+            {
+                "pregunta": "Zijn kinderen welkom?",
+                "respuesta": "Jazeker! Kinderen zijn natuurlijk van harte welkom op onze bruiloft. We vinden het heel leuk als jullie de kleintjes meenemen en deze bijzondere dag samen met hen vieren."
+            },
+            {
+                "pregunta": "Mag ik iemand meenemen?",
+                "respuesta": "We kunnen helaas alleen de gasten ontvangen die met naam op de uitnodiging staan vermeld. Daarom is het niet mogelijk om extra gasten of een plus-one mee te nemen als die niet op de uitnodiging staat."
+            },
+            {
+                "pregunta": "Hoe kom ik in Santiago de Compostela?",
+                "respuesta": "Voor de meeste internationale gasten is vliegen naar de luchthaven van Santiago de Compostela (SCQ) de eenvoudigste optie. De luchthaven ligt op ongeveer 12 km van het stadscentrum. Vanaf daar kun je met een taxi of de luchthavenbus naar Santiago reizen.\n\nDe luchthaven van Porto (OPO) is ook een goed alternatief, vooral als je daar goedkopere vluchten of betere verbindingen vindt. Porto ligt op ongeveer 230 km van Santiago. Je kunt de afstand met de bus, trein of auto afleggen. Het is ook een mooie gelegenheid om de bruiloft te combineren met een paar dagen in Porto!\n\nSantiago heeft bovendien goede treinverbindingen met andere Spaanse steden, waaronder Madrid. Met de trein reizen kan dus een fijne optie zijn als je de bruiloft wilt combineren met een langere reis door Spanje."
+            },
+            {
+                "pregunta": "Waar kan ik het beste verblijven?",
+                "respuesta": "De bruiloft vindt plaats in Hotel Monumento San Francisco, midden in het historische centrum van Santiago. Als je in de buurt verblijft, wordt het weekend een stuk gemakkelijker.\n\nHet hotel biedt onze gasten een speciaal tarief van ongeveer 150 euro voor een tweepersoonskamer. Om hiervan gebruik te maken, kun je contact opnemen met het hotel via reservas@sanfranciscohm.com. Vermeld daarbij dat je de bruiloft van Ángeles en Jeroen bijwoont.\n\nEr zijn ook veel leuke hotels op loopafstand van de trouwlocatie en Airbnb-accommodaties in verschillende prijsklassen in de omgeving. We raden je aan vroeg te boeken, zodat je de accommodatie van je voorkeur kunt kiezen. Rond de datum van onze bruiloft is er namelijk veel vraag naar accommodaties in de stad."
+            },
+            {
+                "pregunta": "Heb ik een auto nodig in Santiago?",
+                "respuesta": "Helemaal niet! Het historische centrum van Santiago is uitstekend te voet te verkennen en de trouwlocatie ligt midden in het centrum. De meeste plekken die je wilt bezoeken, zijn gemakkelijk te voet bereikbaar. Er zijn ook voldoende taxi's beschikbaar.\n\nAls je na de bruiloft meer van Galicië wilt ontdekken, kan een huurauto wel handig zijn, afhankelijk van je reisplannen."
+            },
+            {
+                "pregunta": "Is er vervoer naar de bruiloft geregeld?",
+                "respuesta": "De bruiloft vindt plaats in het centrum van Santiago. We hebben deze locatie gekozen om het voor iedereen zo gemakkelijk mogelijk te maken om er te komen.\n\nAls je in of vlak bij het historische centrum verblijft, kun je naar de trouwlocatie wandelen. Er zijn ook voldoende taxi's als je liever niet loopt."
+            },
+            {
+                "pregunta": "Wat kan ik het beste aantrekken?",
+                "respuesta": "We zouden het leuk vinden als jullie je mooi aankleden voor deze feestelijke gelegenheid en kiezen voor formele kleding. Denk aan een elegante en feestelijke outfit. We kunnen niet wachten om iedereen op zijn mooist te zien! Omdat we in Galicië zijn, is een licht jasje voor de avond ook altijd een goed idee."
+            },
+            {
+                "pregunta": "Wat voor weer wordt het?",
+                "respuesta": "Onze bruiloft vindt plaats op 30 juli, dus we hopen op een prachtige zomerdag in Santiago!\n\nJuli is over het algemeen een van de warmere en drogere maanden in Galicië, al kan het weer soms onvoorspelbaar zijn. Gelukkig vindt het grootste deel van de bruiloft binnen plaats, dus een beetje Galicische regen zal onze plannen niet verpesten."
+            },
+            {
+                "pregunta": "Hoe kan ik dieetwensen of allergieën doorgeven?",
+                "respuesta": "Je kunt eventuele dieetwensen, allergieën of andere speciale vereisten doorgeven wanneer je je aanwezigheid bevestigt. Vermeld ze gewoon bij je RSVP en wij zorgen voor de rest!"
+            },
+            {
+                "pregunta": "Wat kan ik doen tijdens mijn verblijf in Santiago?",
+                "respuesta": "We raden je zeker aan om wat tijd vrij te maken om Santiago te ontdekken en de stad niet alleen te zien als de plek waar de bruiloft plaatsvindt.\n\nWandel door de oude binnenstad, bezoek de kathedraal, geniet van de heerlijke Galicische keuken en wijnen, en dwaal lekker door de prachtige historische straatjes.\n\nAls je meer tijd hebt, is ook de rest van Galicië absoluut de moeite waard. We delen onze favoriete plekken en aanbevelingen graag met je om je te helpen je reis te plannen."
+            },
+            {
+                "pregunta": "Organiseren jullie ook activiteiten rondom de bruiloft?",
+                "respuesta": "Jazeker! We zijn bezig met het plannen van activiteiten en gezellige bijeenkomsten voor en na de bruiloft. We willen graag zoveel mogelijk tijd met jullie doorbrengen en hopen dat jullie bij een aantal daarvan kunnen zijn!\n\nNaarmate de datum dichterbij komt, delen we meer details."
+            },
+            {
+                "pregunta": "Is het de moeite waard om tot de dag na de bruiloft te blijven?",
+                "respuesta": "Als het kan, zeker! We zouden niet alleen graag wat meer tijd met jullie doorbrengen, maar 31 juli is ook de laatste avond van de Fiestas del Apóstol, de grote jaarlijkse feesten van Santiago. De avond wordt traditioneel afgesloten met een spectaculaire vuurwerkshow. Een heel bijzondere manier om je reis door Santiago af te sluiten!\n\nWe raden je ook aan om, als het lukt, wat langer te blijven en de kans te benutten om meer van Santiago en Galicië te ontdekken. Er is ontzettend veel te zien, te eten en te beleven!"
+            }
+        ]
     },
     "footer": {
         "date": "30 · 07 · 2027"

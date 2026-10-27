@@ -4,18 +4,15 @@
         "event": "El gran día",
         "weekend": "Plan de fin de semana",
         "locationGuide": "Prepara las vacaciones",
-        "rsvp": "Confirmar",
+        "rsvp": "Confirmar asistencia",
         "faq": "Preguntas frecuentes"
     },
     "hero": {
         "date": "30 · 07 · 2027",
-        "names": "Ángeles & Jeroen",
-        "subtitle": "Nos casamos",
+        "names": "Ángeles\n&\nJeroen",
+        "subtitle": "¡Nos casamos!",
         "scroll": "¡Confirma tu asistencia!"
     },
-
-
-    
     "countdown": {
         "title": "Faltan",
         "days": "Días",
@@ -23,11 +20,10 @@
         "minutes": "Minutos",
         "seconds": "Segundos"
     },
-
     "story": {
         "eyebrow": "NUESTRA HISTORIA",
         "title": "El comienzo de nuestra historia",
-        "text": "Después de tantos momentos compartidos, queremos celebrar este día rodeados de las personas que más queremos."
+        "text": "Después de tantos momentos juntos, queremos celebrar este día tan especial rodeados de las personas que más queremos."
     },
     "event": {
         "eyebrow": "EL GRAN DÍA",
@@ -36,87 +32,118 @@
         "button": "Ver ubicación",
         "ceremony": {
             "title": "Ceremonia",
-            "time": "17:00",
-            "place": "Iglesia de Santa María",
-            "address": "Madrid, España",
+            "time": "13:30 h",
+            "place": "Iglesia de San Francisco",
+            "address": "R. de San Francisco, 15704 Santiago de Compostela",
             "button": "Ver ubicación"
         },
         "party": {
             "title": "Celebración",
-            "time": "19:00",
-            "place": "Finca La Esperanza",
-            "address": "Madrid, España",
+            "time": "Justo después de la ceremonia",
+            "place": "Hotel Monumento San Francisco",
+            "address": "Junto a la iglesia",
             "button": "Ver ubicación"
+        },
+        "important-time-note": "Por favor, llega al menos 30 minutos antes de la ceremonia para evitar retrasos.",
+        "dressCode": {
+            "dressCode": "Código de vestimenta",
+            "dressCode-note": "Se solicita vestimenta formal tanto para la ceremonia como para la celebración. Os pedimos que os vistáis de forma elegante para compartir con nosotros esta ocasión tan especial.",
+            "style": "Elegante, formal y festivo"
         }
     },
     "weekend": {
         "eyebrow": "PLAN DE FIN DE SEMANA",
-        "title": "Itinerario del fin de semana de la boda",
-        "text": "Actividades de fin de semana."
+        "title": "Programa del fin de semana de boda",
+        "text": "Estamos organizando encuentros, bebidas y actividades para el fin de semana. Pronto decidiremos el programa... ¡ESTAD ATENTOS!"
     },
     "locationGuide": {
-
         "eyebrow": "DESCUBRE LA ZONA",
-
-        "title": "Conoce la localización",
-
+        "title": "Descubre Santiago y sus alrededores",
         "intro": "Algunas recomendaciones para disfrutar de vuestra estancia.",
-
         "categories": {
-
             "food": "Dónde comer",
             "things": "Qué hacer",
-            "nearby": "Sitios cercanos",
-            "why": "Por qué elegimos este sitio"
-
+            "nearby": "Lugares cercanos",
+            "why": "Por qué elegimos este lugar"
         },
-
         "food": {
-
             "title": "Dónde comer",
-
-            "text": "Aquí encontrarás algunos de nuestros restaurantes favoritos."
-
+            "text": "Aquí encontraréis algunos de nuestros restaurantes favoritos."
         },
-
         "things": {
-
             "title": "Qué hacer",
-
             "text": "Algunas ideas para disfrutar de la zona."
-
         },
-
         "nearby": {
-
-            "title": "Sitios cercanos",
-
-            "text": "Lugares que merece la pena visitar cerca."
-
+            "title": "Lugares cercanos",
+            "text": "Lugares que merece la pena visitar por los alrededores."
         },
-
         "why": {
-
-            "title": "Por qué elegimos este sitio",
-
+            "title": "Por qué elegimos este lugar",
             "text": "Este lugar es especial para nosotros porque..."
-
         },
-
         "close": "Cerrar"
-
     },
-
     "rsvp": {
-        "eyebrow": "RSVP",
-        "title": "¿Nos acompañas?",
-        "text": "Confirma tu asistencia antes del 1 de agosto.",
+        "eyebrow": "CONFIRMACIÓN DE ASISTENCIA",
+        "title": "¿Nos acompañarás?",
+        "text": "Por favor, confirma tu asistencia antes del 1 de agosto.",
         "button": "Confirmar asistencia"
     },
     "faq": {
         "eyebrow": "PREGUNTAS FRECUENTES",
         "title": "Preguntas frecuentes",
-        "text": "Respuestas a las preguntas más frecuentes."
+        "text": "Respuestas a las preguntas más habituales.",
+        "faqs": [
+            {
+                "pregunta": "¿Están invitados los niños?",
+                "respuesta": "¡Sí! Los niños son, por supuesto, bienvenidos a nuestra boda. Nos encantará que traigáis a los más pequeños y que celebremos juntos este día tan especial."
+            },
+            {
+                "pregunta": "¿Puedo llevar a un acompañante?",
+                "respuesta": "Solo podemos recibir a los invitados que aparecen por nombre en la invitación, por lo que, lamentablemente, no podemos admitir acompañantes adicionales que no estén incluidos en ella."
+            },
+            {
+                "pregunta": "¿Cómo puedo llegar a Santiago de Compostela?",
+                "respuesta": "Para la mayoría de los invitados internacionales, la opción más sencilla es volar al aeropuerto de Santiago de Compostela (SCQ), situado a unos 12 km del centro de la ciudad. Desde el aeropuerto podéis llegar a Santiago en taxi o en autobús.\n\nEl aeropuerto de Oporto (OPO) también es una buena alternativa, especialmente si encontráis vuelos más económicos o mejores conexiones. Oporto está a unos 230 km de Santiago y podéis hacer el trayecto en autobús, tren o coche. ¡También puede ser una oportunidad estupenda para combinar la boda con unos días en Oporto!\n\nSantiago también está bien conectado por tren con otras ciudades españolas, como Madrid, así que viajar en tren puede ser una buena opción si queréis combinar la boda con una ruta más larga por España."
+            },
+            {
+                "pregunta": "¿Dónde debería alojarme?",
+                "respuesta": "La boda tendrá lugar en el Hotel Monumento San Francisco, en pleno centro histórico de Santiago, por lo que alojarse cerca hará que el fin de semana sea mucho más cómodo.\n\nEl hotel ofrece a nuestros invitados una tarifa especial de aproximadamente 150 euros por habitación doble. Para beneficiaros de ella, contactad con el hotel en reservas@sanfranciscohm.com e indicad que asistiréis a la boda de Ángeles y Jeroen.\n\nTambién hay muchos hoteles encantadores a poca distancia a pie del lugar de la celebración y apartamentos de Airbnb con distintos precios por la zona. Os recomendamos reservar con antelación para conseguir el alojamiento que prefiráis, ya que las fechas de la boda coinciden con un periodo de gran demanda en la ciudad."
+            },
+            {
+                "pregunta": "¿Necesito coche en Santiago?",
+                "respuesta": "¡En absoluto! El centro histórico de Santiago se puede recorrer fácilmente a pie y el lugar de la boda está en pleno centro. Podréis llegar caminando a la mayoría de los sitios que queráis visitar, y también hay taxis disponibles.\n\nSin embargo, si tenéis pensado explorar otros lugares de Galicia después de la boda, alquilar un coche puede ser útil, dependiendo de vuestra ruta."
+            },
+            {
+                "pregunta": "¿Habrá transporte hasta la boda?",
+                "respuesta": "La boda se celebrará en el centro de Santiago. Elegimos este lugar para que llegar fuera lo más fácil posible para todos.\n\nSi os alojáis en el centro histórico o cerca de él, podréis llegar caminando al lugar de la celebración. También hay taxis disponibles si preferís no ir a pie."
+            },
+            {
+                "pregunta": "¿Qué ropa debería llevar?",
+                "respuesta": "Nos encantaría que os arreglarais para la ocasión y eligierais un conjunto formal para celebrar con nosotros. Pensad en un estilo elegante y festivo: ¡estamos deseando veros a todos luciendo vuestras mejores galas! Y, como estaremos en Galicia, siempre viene bien llevar alguna prenda ligera para la noche."
+            },
+            {
+                "pregunta": "¿Qué tiempo hará?",
+                "respuesta": "Nuestra boda es el 30 de julio, ¡así que esperamos disfrutar de un precioso día de verano en Santiago!\n\nJulio suele ser uno de los meses más cálidos y secos de Galicia, aunque el tiempo puede ser algo imprevisible. La buena noticia es que la mayor parte de la celebración tendrá lugar en interiores, así que un poco de lluvia gallega no estropeará nuestros planes."
+            },
+            {
+                "pregunta": "¿Cómo puedo comunicar mis necesidades alimentarias?",
+                "respuesta": "Podéis indicarnos cualquier restricción alimentaria, alergia o necesidad especial al confirmar vuestra asistencia. Aseguraos de incluir esta información en la confirmación y nosotros nos encargaremos del resto."
+            },
+            {
+                "pregunta": "¿Qué puedo hacer durante mi estancia en Santiago?",
+                "respuesta": "Os recomendamos reservar algo de tiempo para explorar Santiago, en lugar de considerarla únicamente la ciudad donde se celebra la boda.\n\nPasead por el casco antiguo, visitad la Catedral, disfrutad de la fantástica gastronomía y los vinos gallegos, y perdeos un poco por sus preciosas calles históricas.\n\nY, si disponéis de más tiempo, Galicia merece muchísimo la pena más allá de Santiago. Compartiremos algunos de nuestros lugares favoritos y recomendaciones para ayudaros a organizar el viaje."
+            },
+            {
+                "pregunta": "¿Estáis organizando actividades alrededor de la boda?",
+                "respuesta": "¡Sí! Estamos preparando algunas actividades y encuentros antes y después de la boda. Nos encantaría pasar todo el tiempo posible con vosotros, ¡así que esperamos que podáis acompañarnos en alguno de ellos!\n\nCompartiremos más detalles a medida que se acerque la fecha."
+            },
+            {
+                "pregunta": "¿Merece la pena quedarse hasta el día después de la boda?",
+                "respuesta": "¡Si podéis, sí! No solo nos encantará pasar un poco más de tiempo con vosotros, sino que el 31 de julio es la última noche de las Fiestas del Apóstol, las grandes celebraciones anuales de Santiago. La noche suele terminar con un espectacular espectáculo de fuegos artificiales, así que es una forma muy especial de terminar vuestro viaje.\n\nTambién os recomendamos quedaros algún día más si os es posible y aprovechar para descubrir Santiago y Galicia. ¡Hay muchísimo que ver, comer y disfrutar!"
+            }
+        ]
     },
     "footer": {
         "date": "30 · 07 · 2027"
