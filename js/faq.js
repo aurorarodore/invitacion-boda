@@ -1,124 +1,110 @@
 
-document.addEventListener("DOMContentLoaded", async () => {
-  const container = document.getElementById("faq-container");
+function renderFAQs() {
+    const container = document.getElementById("faq-container");
 
-  try {
-    // Detect the website language
-    // Supports <html lang="en">, <html lang="es"> and <html lang="nl">
-    const language = document.documentElement.lang
-      .toLowerCase()
-      .split("-")[0];
-
-    const supportedLanguages = ["en", "es", "nl"];
-    const selectedLanguage = supportedLanguages.includes(language)
-      ? language
-      : "en";
-
-    // Load the corresponding translation file
-    const response = await fetch(`i18n/${selectedLanguage}.json`);
-
-    if (!response.ok) {
-      throw new Error(`Could not load ${selectedLanguage}.json`);
+    if (!container) {
+        console.error("No se encuentra #faq-container en el HTML.");
+        return;
     }
 
-    const data = await response.json();
+    // Usar las traducciones que ya ha cargado script.js
+    const faqData = translations?.faq;
 
-    //  JSON structure is: { "faqs": [...] }
-    data.faq.faqs.forEach((item, index) => {
-      const faqItem = document.createElement("div");
-      faqItem.className = "faq-item";
+    if (!faqData || !Array.isArray(faqData.faqs)) {
+        console.error("No se han encontrado las FAQ en las traducciones.");
+        container.textContent = "No se pudieron cargar las preguntas frecuentes.";
+        return;
+    }
 
-      // Question button
-      const question = document.createElement("button");
-      question.className = "faq-question";
-      question.type = "button";
-      question.id = `faq-question-${index}`;
-      question.setAttribute("aria-expanded", "false");
-      question.setAttribute("aria-controls", `faq-answer-${index}`);
+    // Vaciar las FAQ del idioma anterior
+    container.replaceChildren();
 
-      const questionText = document.createElement("span");
-      questionText.textContent = item.pregunta;
+    faqData.faqs.forEach((item, index) => {
+        const faqItem = document.createElement("div");
+        faqItem.className = "faq-item";
 
-      const icon = document.createElement("span");
-      icon.className = "faq-icon";
-      icon.textContent = "+";
-      icon.setAttribute("aria-hidden", "true");
+        // Pregunta
+        const question = document.createElement("button");
+        question.className = "faq-question";
+        question.type = "button";
+        question.id = `faq-question-${index}`;
+        question.setAttribute("aria-expanded", "false");
+        question.setAttribute("aria-controls", `faq-answer-${index}`);
 
-      question.append(questionText, icon);
+        const questionText = document.createElement("span");
+        questionText.textContent = item.pregunta;
 
-      // Answer panel
-      const answer = document.createElement("div");
-      answer.className = "faq-answer";
-      answer.id = `faq-answer-${index}`;
-      answer.setAttribute("role", "region");
-      answer.setAttribute("aria-labelledby", question.id);
-      answer.hidden = true;
+        const icon = document.createElement("span");
+        icon.className = "faq-icon";
+        icon.textContent = "+";
+        icon.setAttribute("aria-hidden", "true");
 
-      renderAnswer(answer, item.respuesta);
+        question.append(questionText, icon);
 
-      // Accordion behaviour: only one open at a time
-      question.addEventListener("click", () => {
-        const wasOpen =
-          question.getAttribute("aria-expanded") === "true";
+        // Respuesta
+        const answer = document.createElement("div");
+        answer.className = "faq-answer";
+        answer.id = `faq-answer-${index}`;
+        answer.setAttribute("role", "region");
+        answer.setAttribute("aria-labelledby", question.id);
+        answer.hidden = true;
 
-        // Close all questions
-        container.querySelectorAll(".faq-question").forEach((button) => {
-          button.setAttribute("aria-expanded", "false");
+        renderAnswer(answer, item.respuesta);
 
-          const buttonIcon = button.querySelector(".faq-icon");
-          buttonIcon.textContent = "+";
+        // Acordeón: solo una pregunta abierta a la vez
+        question.addEventListener("click", () => {
+            const wasOpen =
+                question.getAttribute("aria-expanded") === "true";
 
-          const panel = document.getElementById(
-            button.getAttribute("aria-controls")
-          );
+            container.querySelectorAll(".faq-question").forEach(button => {
+                button.setAttribute("aria-expanded", "false");
+                button.querySelector(".faq-icon").textContent = "+";
 
-          panel.hidden = true;
+                const panel = document.getElementById(
+                    button.getAttribute("aria-controls")
+                );
+
+                if (panel) {
+                    panel.hidden = true;
+                }
+            });
+
+            if (!wasOpen) {
+                question.setAttribute("aria-expanded", "true");
+                icon.textContent = "−";
+                answer.hidden = false;
+            }
         });
 
-        // Open the clicked question if it was closed
-        if (!wasOpen) {
-          question.setAttribute("aria-expanded", "true");
-          icon.textContent = "−";
-          answer.hidden = false;
-        }
-      });
-
-      faqItem.append(question, answer);
-      container.appendChild(faqItem);
+        faqItem.append(question, answer);
+        container.appendChild(faqItem);
     });
-  } catch (error) {
-    console.error("Error loading FAQs:", error);
-    container.textContent =
-      "Sorry, the FAQs could not be loaded.";
-  }
-});
+}
 
 function renderAnswer(container, text) {
-  // Split paragraphs separated by blank lines
-  const blocks = text.split(/\n\s*\n/);
+    const blocks = text.split(/\n\s*\n/);
 
-  blocks.forEach((block) => {
-    const trimmed = block.trim();
+    blocks.forEach(block => {
+        const trimmed = block.trim();
 
-    if (!trimmed) return;
+        if (!trimmed) return;
 
-    const lines = trimmed.split("\n").map((line) => line.trim());
+        const lines = trimmed.split("\n").map(line => line.trim());
 
-    // Render bullet lists
-    if (lines.every((line) => line.startsWith("- "))) {
-      const list = document.createElement("ul");
+        if (lines.every(line => line.startsWith("- "))) {
+            const list = document.createElement("ul");
 
-      lines.forEach((line) => {
-        const li = document.createElement("li");
-        li.textContent = line.replace(/^- /, "");
-        list.appendChild(li);
-      });
+            lines.forEach(line => {
+                const li = document.createElement("li");
+                li.textContent = line.replace(/^- /, "");
+                list.appendChild(li);
+            });
 
-      container.appendChild(list);
-    } else {
-      const paragraph = document.createElement("p");
-      paragraph.textContent = trimmed;
-      container.appendChild(paragraph);
-    }
-  });
+            container.appendChild(list);
+        } else {
+            const paragraph = document.createElement("p");
+            paragraph.textContent = trimmed;
+            container.appendChild(paragraph);
+        }
+    });
 }

@@ -198,6 +198,9 @@ async function loadLanguage(language) {
         currentLanguage =
             language;
 
+        if (typeof renderFAQs === "function") {
+            renderFAQs();
+        }
 
         // =============================================
         // ACTUALIZAR LOCATION GUIDE
@@ -895,8 +898,6 @@ function closeLocationContent() {
     locationContent.classList.remove(
         "open"
     );
-
-
     // Quitar estado activo de los círculos
 
     locationButtons.forEach(
