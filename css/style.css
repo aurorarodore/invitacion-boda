@@ -1236,7 +1236,7 @@ footer p {
     background:
         linear-gradient(rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)),
         url("../images/angelesyjeroen_movil.jpg") center / cover no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
     .hero-content {
@@ -1259,6 +1259,16 @@ footer p {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
     }
+
+
+    #event {
+
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url("../images/fotoiglesia_dibujo_movil.jpg") center / cover no-repeat;
+    background-attachment: fixed;
+
+}
 
 
     /* =========================
