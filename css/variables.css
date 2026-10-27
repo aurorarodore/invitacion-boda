@@ -1,0 +1,20 @@
+:root {
+    --color-ciruela: #480C26;
+    --color-naranjita: #D48567;
+    --color-rosa-palido: #D4A2A1;
+    --color-amarillo-tostado: #DEAE62;
+    --color-perinwinkle: #9199C8;
+    --color-verde: #bccba3;
+    --color-blanco: #f5e6f2;
+
+
+    /* NAV */
+
+    --nav-height: 80px;
+
+
+    /* TRANSITIONS */
+
+    --transition: 0.3s ease;
+}
+

@@ -1,0 +1,127 @@
+{
+    "nav": {
+        "story": "Ons verhaal",
+        "event": "De grote dag",
+        "weekend": "Weekendplan",
+        "locationGuide": "Voorbereiden op vakantie",
+        "rsvp": "RSVP",
+        "faq": "Veelgestelde vragen"
+    },
+    "hero": {
+        "date": "30 · 07 · 2027",
+        "names": "Ángeles & Jeroen",
+        "subtitle": "Wij gaan trouwen",
+        "scroll": "Bevestig je aanwezigheid!"
+    },
+
+    
+    "countdown": {
+        "title": "Tot onze bruiloft",
+        "days": "Dagen",
+        "hours": "Uren",
+        "minutes": "Minuten",
+        "seconds": "Seconden"
+    },
+
+    "story": {
+        "eyebrow": "ONS VERHAAL",
+        "title": "Het begin van ons verhaal",
+        "text": "Na zoveel mooie momenten samen willen we deze bijzondere dag vieren, omringd door de mensen die ons het meest dierbaar zijn."
+    },
+    "event": {
+        "eyebrow": "DE GROTE DAG",
+        "title": "30 juli",
+
+        "googleMaps": "Openen in Google Maps",
+        "button": "Bekijk locatie",
+        "ceremony": {
+            "title": "Ceremonie",
+            "time": "17:00",
+            "place": "Santa María Church",
+            "address": "Madrid, Spanje",
+            "button": "Bekijk locatie"
+        },
+        "party": {
+            "title": "Receptie",
+            "time": "19:00",
+            "place": "La Esperanza Estate",
+            "address": "Madrid, Spanje",
+            "button": "Bekijk locatie"
+        }
+    },
+    "weekend": {
+        "eyebrow": "WEEKENDPLAN",
+        "title": "Itinerary voor het huwelijksweekend",
+        "text": "Weekendactiviteiten."
+    },
+    "locationGuide": {
+
+    "eyebrow": "ONTDEK DE OMGEVING",
+
+    "title": "Ontdek de locatie",
+
+    "intro": "Enkele aanbevelingen om van jullie verblijf te genieten.",
+
+    "categories": {
+
+        "food": "Waar te eten",
+
+        "things": "Wat te doen",
+
+        "nearby": "In de buurt",
+
+        "why": "Waarom we deze plek kozen"
+
+    },
+
+    "food": {
+
+        "title": "Waar te eten",
+
+        "text": "Hier vinden jullie enkele van onze favoriete restaurants."
+
+    },
+
+    "things": {
+
+        "title": "Wat te doen",
+
+        "text": "Enkele ideeën om van de omgeving te genieten."
+
+    },
+
+    "nearby": {
+
+        "title": "Plaatsen in de buurt",
+
+        "text": "Plaatsen die zeker een bezoek waard zijn."
+
+    },
+
+    "why": {
+
+        "title": "Waarom we deze plek kozen",
+
+        "text": "Deze plek is speciaal voor ons omdat..."
+
+    },
+
+    "close": "Sluiten"
+
+}
+,
+    "rsvp": {
+        "eyebrow": "RSVP",
+        "title": "Kom je erbij?",
+        "text": "Bevestig je aanwezigheid vóór 1 augustus.",
+        "button": "Aanwezigheid bevestigen"
+    },
+    "faq": {
+        "eyebrow": "VEELGESTELDE VRAGEN",
+        "title": "Veelgestelde vragen",
+        "text": "Antwoorden op de meest gestelde vragen."
+    },
+    "footer": {
+        "date": "30 · 07 · 2027"
+    }
+}

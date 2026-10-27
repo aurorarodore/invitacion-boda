@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ángeles & Jeroen</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/variables.css">
+
+</head>
+
+<body>
+
+
+    <!-- LANGUAGE SELECTOR -->
+
+    <nav class="main-nav">
+
+        <!-- DESKTOP -->
+
+        <div class="desktop-menu">
+
+            <div class="nav-languages">
+
+                <button data-lang="es">ES</button>
+                <button data-lang="en">EN</button>
+                <button data-lang="nl">NL</button>
+
+            </div>
+
+            <div class="nav-divider"></div>
+
+            <div class="nav-links">
+
+                <!-- <a href="#story" data-i18n="nav.story"></a>-->
+
+                <a href="#event" data-i18n="nav.event"></a>
+
+                <a href="#weekend" data-i18n="nav.weekend"></a>
+
+                <a href="#location-guide" data-i18n="nav.locationGuide"></a>
+
+                <a href="#rsvp" data-i18n="nav.rsvp"></a>
+
+                <a href="#faq" data-i18n="nav.faq"></a>
+
+            </div>
+
+        </div>
+
+
+        <!-- HAMBURGUESA -->
+
+        <button class="mobile-menu-button" id="mobileMenuButton" aria-label="Abrir menú">
+
+            <img class="icon-menu" src="icons/menu.svg" alt="">
+
+            <img class="icon-close" src="icons/equis.svg" alt="">
+
+        </button>
+
+
+        <!-- MOBILE -->
+
+        <div class="mobile-menu" id="mobileMenu">
+
+            <div class="mobile-languages">
+
+                <button data-lang="es">ES</button>
+                <button data-lang="en">EN</button>
+                <button data-lang="nl">NL</button>
+
+            </div>
+
+            <div class="mobile-divider"></div>
+
+            <div class="mobile-links">
+
+                <!-- <a href="#story" data-i18n="nav.story"></a>-->
+
+                <a href="#event" data-i18n="nav.event"></a>
+
+                <a href="#weekend" data-i18n="nav.weekend"></a>
+
+                <a href="#location-guide" data-i18n="nav.locationGuide"></a>
+
+                <a href="#rsvp" data-i18n="nav.rsvp"></a>
+
+                <a href="#faq" data-i18n="nav.faq"></a>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- HERO -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <p class="hero-date" data-i18n="hero.date">
+            </p>
+
+            <h1 data-i18n="hero.names">
+            </h1>
+
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+            </p>
+
+            <a href="#rsvp" class="scroll-button" data-i18n="hero.scroll">
+
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- COUNTDOWN -->
+
+    <section class="countdown-section section-impar">
+
+        <p class="countdown-title" data-i18n="countdown.title"></p>
+
+        <div class="countdown">
+
+            <div class="countdown-item">
+                <span id="days">00</span>
+                <small data-i18n="countdown.days"></small>
+            </div>
+
+            <div class="countdown-separator">:</div>
+
+            <div class="countdown-item">
+                <span id="hours">00</span>
+                <small data-i18n="countdown.hours"></small>
+            </div>
+
+            <div class="countdown-separator">:</div>
+
+            <div class="countdown-item">
+                <span id="minutes">00</span>
+                <small data-i18n="countdown.minutes"></small>
+            </div>
+
+            <div class="countdown-separator">:</div>
+
+            <div class="countdown-item">
+                <span id="seconds">00</span>
+                <small data-i18n="countdown.seconds"></small>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- STORY -->
+
+    <!--
+    <section id="story" class="section section-par story">
+
+        <div class="container">
+
+            <p class="eyebrow" data-i18n="story.eyebrow">
+            </p>
+
+            <h2 data-i18n="story.title">
+            </h2>
+
+            <p class="text" data-i18n="story.text">
+            </p>
+
+        </div>
+
+    </section>
+    -->
+
+
+    <!-- EVENT -->
+
+    <section class="section section-impar event" id="event">
+
+        <div class="container">
+
+            <div class="event-header">
+                <p class="eyebrow" data-i18n="event.eyebrow">
+                </p>
+
+                <h2 data-i18n="event.title">
+                </h2>
+            </div>
+
+
+
+            <div class="event-grid">
+
+
+                <!-- CEREMONY -->
+
+                <div class="event-card">
+
+                    <h3 data-i18n="event.ceremony.title">
+                    </h3>
+
+                    <div class="event-time">
+                        <img class="icon-clock" src="icons/time.svg" alt="">
+                        <p data-i18n="event.ceremony.time">
+                        </p>
+                    </div>
+
+                    <div class="event-place">
+                        <img class="icon-church" src="icons/church.svg" alt="">
+
+                        <p data-i18n="event.ceremony.place">
+                        </p>
+                    </div>
+
+
+                    <div class="event-address">
+                        <img class="icon-location" src="icons/location.svg" alt="">
+                        <p data-i18n="event.ceremony.address">
+                        </p>
+                    </div>
+
+                    <!--
+                        <a href="#" data-i18n="event.ceremony.button">
+                    </a>
+                    -->
+
+                    <a href="https://maps.app.goo.gl/WabiPLvPmEDQgmQu6" target="_blank" class="button"
+                        data-i18n="event.googleMaps">
+                    </a>
+
+
+                </div>
+
+
+                <!-- PARTY -->
+
+                <div class="event-card">
+
+                    <h3 data-i18n="event.party.title">
+                    </h3>
+
+                    <div class="event-time">
+                        <img class="icon-clock" src="icons/time.svg" alt="">
+                        <p data-i18n="event.party.time">
+                        </p>
+                    </div>
+
+
+                    <div class="event-place">
+                        <img class="icon-church" src="icons/party.svg" alt="">
+                        <p data-i18n="event.party.place">
+                        </p>
+                    </div>
+
+                    <div class="event-address">
+                        <img class="icon-location" src="icons/location.svg" alt="">
+                        <p data-i18n="event.party.address">
+                        </p>
+                    </div>
+
+                    <!--
+                        <a href="#" data-i18n="event.party.button">
+                        </a>
+                        -->
+                    <a href="https://maps.app.goo.gl/RyopdT5is5Sfe8kk8" target="_blank" class="button"
+                        data-i18n="event.googleMaps">
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+            <div>
+                <p data-i18n="event.important-time-note" class="important-time-note">
+                </p>
+            </div>
+        </div>
+
+        <!-- MAP HERE -->
+
+
+
+
+
+
+        <div class="dresscode-card">
+            <img class="icon-location" src="icons/dress.svg" alt="">
+            <img class="icon-location" src="icons/suit.svg" alt="">
+            <span class="dresscode-eyebrow">A LITTLE NOTE ON ATTIRE</span>
+
+            <h3 data-i18n="event.dressCode.dressCode">
+            </h3>
+
+            <span class="dresscode-divider"></span>
+
+            <p class="dresscode-style" data-i18n="event.dressCode.style">
+            </p>
+
+            <p class="dresscode-description" data-i18n="event.dressCode.dressCode-note">
+            </p>
+        </div>
+
+    </section>
+
+
+    <!-- WEEKEND PLANS -->
+
+    <section class="section section-par weekend" id="weekend">
+
+        <div class="container">
+
+            <p class="eyebrow" data-i18n="weekend.eyebrow">
+            </p>
+
+            <h2 data-i18n="weekend.title">
+            </h2>
+            <p class="text-weekend" data-i18n="weekend.text">
+
+
+        </div>
+
+    </section>
+
+
+    <!-- location-guide -->
+
+    <section id="location-guide" class="location-guide section-impar">
+
+        <div class="section-header">
+
+            <p class="section-eyebrow" data-i18n="locationGuide.eyebrow"></p>
+
+            <h2 data-i18n="locationGuide.title"></h2>
+
+            <p class="section-intro" data-i18n="locationGuide.intro"></p>
+
+        </div>
+
+        <!-- CÍRCULOS -->
+
+        <div class="location-categories">
+
+            <button class="location-category" data-location="food">
+
+                <span class="location-category-number">
+                    01
+                </span>
+
+                <span data-i18n="locationGuide.categories.food">
+                </span>
+
+            </button>
+
+
+            <button class="location-category" data-location="things">
+
+                <span class="location-category-number">
+                    02
+                </span>
+
+                <span data-i18n="locationGuide.categories.things">
+                </span>
+
+            </button>
+
+
+            <button class="location-category" data-location="nearby">
+
+                <span class="location-category-number">
+                    03
+                </span>
+
+                <span data-i18n="locationGuide.categories.nearby">
+                </span>
+
+            </button>
+
+
+            <button class="location-category" data-location="why">
+
+                <span class="location-category-number">
+                    04
+                </span>
+
+                <span data-i18n="locationGuide.categories.why">
+                </span>
+
+            </button>
+
+        </div>
+
+
+        <!-- CONTENIDO -->
+
+        <div class="location-content" id="locationContent">
+
+            <!-- JavaScript introducirá aquí el contenido -->
+
+        </div>
+
+
+    </section>
+
+    <!-- RSVP -->
+
+    <section class="section section-par rsvp" id="rsvp">
+
+        <div class="container">
+
+            <p class="eyebrow" data-i18n="rsvp.eyebrow">
+            </p>
+
+            <h2 data-i18n="rsvp.title">
+            </h2>
+
+            <p class="text" data-i18n="rsvp.text">
+            </p>
+
+            <a href="#" class="button" data-i18n="rsvp.button">
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FAQ -->
+
+    <section class="section section-impar faq" id="faq">
+
+        <div class="container">
+
+            <p class="eyebrow" data-i18n="faq.eyebrow">
+            </p>
+
+            <h2 data-i18n="faq.title">
+            </h2>
+
+            <p class="text" data-i18n="faq.text">
+            </p>
+
+
+
+            <section class="faq-section">
+                <h2 class="faq-heading">Frequently Asked Questions</h2>
+                <div id="faq-container" class="faq-list"></div>
+            </section>
+
+            <script src="js/faq.js" defer></script>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p data-i18n="hero.names"></p>
+
+        <p data-i18n="footer.date"></p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

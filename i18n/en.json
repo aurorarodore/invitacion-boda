@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "story": "Our story",
+    "event": "The big day",
+    "weekend": "Weekend plan",
+    "locationGuide": "Prepare for Vacation",
+    "rsvp": "RSVP",
+    "faq": "Frequently asked questions"
+  },
+  "hero": {
+    "date": "30 · 07 · 2027",
+    "names": "Ángeles\n&\nJeroen",
+    "subtitle": "We're getting married",
+    "scroll": "Confirm your attendance!"
+  },
+  "countdown": {
+    "title": "Until our wedding",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "story": {
+    "eyebrow": "OUR STORY",
+    "title": "The beginning of our story",
+    "text": "After so many moments together, we want to celebrate this special day surrounded by the people we love most."
+  },
+  "event": {
+    "eyebrow": "THE BIG DAY",
+    "title": "July 30",
+    "googleMaps": "Open in Google Maps",
+    "button": "View location",
+    "ceremony": {
+      "title": "Ceremony",
+      "time": "13:30h",
+      "place": "Iglesia de San Francisco",
+      "address": "R. de San Francisco, 15704 Santiago de Compostela",
+      "button": "View location"
+    },
+    "party": {
+      "title": "Reception",
+      "time": "Directly after the ceremony",
+      "place": " Hotel Monumento San Francisco",
+      "address": "Next to the church",
+      "button": "View location"
+    },
+    "important-time-note": "Please make sure that you arrive at least 30 minutes before the ceremony time to avoid any delays.",
+    "dressCode":{
+      "dressCode": "Dress Code",
+      "dressCode-note": "Formal attire is requested for the ceremony and reception. We kindly ask our guests to dress elegantly to celebrate this special occasion with us.",
+      "style": "Elegant, Formal & Festive"
+    }
+  },
+  "weekend": {
+    "eyebrow": "WEEKEND PLAN",
+    "title": "Wedding weekend itinerary",
+    "text": "We will plan drinks and activities for the weekend. The itinerary will be decided soon... STAY TUNED!"
+  },
+  "locationGuide": {
+    "eyebrow": "DISCOVER THE AREA",
+    "title": "Discover the location",
+    "intro": "Some recommendations to enjoy your stay.",
+    "categories": {
+      "food": "Where to eat",
+      "things": "Things to do",
+      "nearby": "Nearby",
+      "why": "Why we chose this place"
+    },
+    "food": {
+      "title": "Where to eat",
+      "text": "Here you'll find some of our favourite restaurants."
+    },
+    "things": {
+      "title": "Things to do",
+      "text": "Some ideas to enjoy the area."
+    },
+    "nearby": {
+      "title": "Nearby places",
+      "text": "Places worth visiting nearby."
+    },
+    "why": {
+      "title": "Why we chose this place",
+      "text": "This place is special to us because..."
+    },
+    "close": "Close"
+  },
+  "rsvp": {
+    "eyebrow": "RSVP",
+    "title": "Will you join us?",
+    "text": "Please confirm your attendance before August 1st.",
+    "button": "Confirm attendance"
+  },
+  "faq": {
+    "eyebrow": "FREQUENTLY ASKED QUESTIONS",
+    "title": "Frequently asked questions",
+    "text": "Answers to the most frequently asked questions.",
+    "faqs": [
+      {
+        "pregunta": "Are children invited?",
+        "respuesta": "Yes! Children are of course welcome at our wedding. We’d love for you to bring your little ones and celebrate the day together."
+      },
+      {
+        "pregunta": "Can I bring a plus-one?",
+        "respuesta": "We’re only able to welcome the guests who are named on the invitation, so unfortunately we cannot accommodate additional guests or plus-ones."
+      },
+      {
+        "pregunta": "How do I get to Santiago de Compostela?",
+        "respuesta": "The easiest option for most international guests is to fly into Santiago de Compostela Airport (SCQ), which is around 12 km from the city centre. From the airport, you can take a taxi or the airport bus into Santiago.\n\nPorto Airport (OPO) is also a great alternative, especially if you find better or cheaper flight connections. Porto is around 230 km from Santiago, and you can travel by bus, train or car. It can also be a lovely opportunity to combine the wedding with a few days in Porto!\n\nSantiago is also well connected by train to other cities in Spain, including Madrid, so travelling by train can be a great option if you’re combining the wedding with a longer trip around Spain."
+      },
+      {
+        "pregunta": "Where should I stay?",
+        "respuesta": "The wedding will take place at Hotel Monumento San Francisco, right in the historic centre of Santiago, so staying nearby will make the weekend particularly easy.\n\nOur venue is offering our guests a special rate (~150 euro for a double room). To take advantage of it, please contact the hotel (reservas@sanfranciscohm.com) and mention that you are attending Angeles & Jeroen's wedding.\n\nThere are also plenty of lovely hotels within walking distance of the venue or Airbnbs around the area with differente budgets. We recommend booking early to secure your preferred accommodation as the dates around the ceremony are highly demanded in the city."
+      },
+      {
+        "pregunta": "Do I need a car in Santiago?",
+        "respuesta": "Not at all! Santiago’s historic centre is very walkable, and the wedding venue is right in the centre. Most places you’ll want to visit can easily be reached on foot, and taxis are also readily available.\n\nIf you’re planning to explore more of Galicia after the wedding, however, renting a car could be useful depending on where you want to go."
+      },
+      {
+        "pregunta": "Will there be transportation to the wedding?",
+        "respuesta": "The wedding is in the centre of Santiago, we chose the location to make it as easy as possible for everyone to get there.\n\nIf you’re staying in or around the historic centre, you should be able to walk to the venue. Taxis are also readily available if you prefer not to walk."
+      },
+      {
+        "pregunta": "What should I wear?",
+        "respuesta": "We’d love for you to embrace the occasion and dress up for the celebration with a formal outfit. Think elegant and festive, we can’t wait to see everyone looking their best. And because we’re in Galicia, a light layer for the evening is always a good idea!"
+      },
+      {
+        "pregunta": "What will the weather be like?",
+        "respuesta": "Our wedding is on 30 July, so we’re hoping for a beautiful summer day in Santiago!\n\nJuly is generally one of the warmer and drier months in Galicia, although the weather can still be a little unpredictable. The good news is that most of the wedding will take place indoors, so a little Galician rain won’t spoil our plans."
+      },
+      {
+        "pregunta": "How do I let you know about dietary requirements?",
+        "respuesta": "You can let us know about any dietary restrictions, allergies or special requirements when you RSVP. Just make sure to include them in your RSVP and we’ll take care of the rest!"
+      },
+      {
+        "pregunta": "What should I do while I’m in Santiago?",
+        "respuesta": "We really recommend leaving some time to explore Santiago rather than treating it as just the location of the wedding.\n\nWander around the old town, visit the Cathedral, enjoy some amazing Galician food and wine, and simply get a little lost in the beautiful historic streets.\n\nAnd if you have more time, Galicia is absolutely worth exploring beyond Santiago. We’ll share some of our favourite places and recommendations to help you plan your trip."
+      },
+      {
+        "pregunta": "Are you planning anything around the wedding?",
+        "respuesta": "Yes! We’re planning some activities and get-togethers before and after the wedding. We’d love to spend as much time with you as possible, so we hope you’ll join us for some of them!\n\nWe’ll share more details as we get closer to the wedding."
+      },
+      {
+        "pregunta": "Should I stay until the day after the wedding?",
+        "respuesta": "If you can, yes! Not only would we love to spend a little more time with you, but 31st July is the closing night of the Fiestas del Apóstol, Santiago’s big annual celebrations. The evening traditionally ends with a spectacular fireworks display, so it’s a pretty special way to finish your Santiago trip.\n\nWe also recommend staying a little longer if you can and using the opportunity to explore more of Santiago and Galicia. There’s plenty to see, eat and discover!"
+      }
+    ]
+  },
+  "footer": {
+    "date": "30 · 07 · 2027"
+  }
+}

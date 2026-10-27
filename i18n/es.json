@@ -1,0 +1,124 @@
+{
+    "nav": {
+        "story": "Nuestra historia",
+        "event": "El gran día",
+        "weekend": "Plan de fin de semana",
+        "locationGuide": "Prepara las vacaciones",
+        "rsvp": "Confirmar",
+        "faq": "Preguntas frecuentes"
+    },
+    "hero": {
+        "date": "30 · 07 · 2027",
+        "names": "Ángeles & Jeroen",
+        "subtitle": "Nos casamos",
+        "scroll": "¡Confirma tu asistencia!"
+    },
+
+
+    
+    "countdown": {
+        "title": "Faltan",
+        "days": "Días",
+        "hours": "Horas",
+        "minutes": "Minutos",
+        "seconds": "Segundos"
+    },
+
+    "story": {
+        "eyebrow": "NUESTRA HISTORIA",
+        "title": "El comienzo de nuestra historia",
+        "text": "Después de tantos momentos compartidos, queremos celebrar este día rodeados de las personas que más queremos."
+    },
+    "event": {
+        "eyebrow": "EL GRAN DÍA",
+        "title": "30 de julio",
+        "googleMaps": "Abrir en Google Maps",
+        "button": "Ver ubicación",
+        "ceremony": {
+            "title": "Ceremonia",
+            "time": "17:00",
+            "place": "Iglesia de Santa María",
+            "address": "Madrid, España",
+            "button": "Ver ubicación"
+        },
+        "party": {
+            "title": "Celebración",
+            "time": "19:00",
+            "place": "Finca La Esperanza",
+            "address": "Madrid, España",
+            "button": "Ver ubicación"
+        }
+    },
+    "weekend": {
+        "eyebrow": "PLAN DE FIN DE SEMANA",
+        "title": "Itinerario del fin de semana de la boda",
+        "text": "Actividades de fin de semana."
+    },
+    "locationGuide": {
+
+        "eyebrow": "DESCUBRE LA ZONA",
+
+        "title": "Conoce la localización",
+
+        "intro": "Algunas recomendaciones para disfrutar de vuestra estancia.",
+
+        "categories": {
+
+            "food": "Dónde comer",
+            "things": "Qué hacer",
+            "nearby": "Sitios cercanos",
+            "why": "Por qué elegimos este sitio"
+
+        },
+
+        "food": {
+
+            "title": "Dónde comer",
+
+            "text": "Aquí encontrarás algunos de nuestros restaurantes favoritos."
+
+        },
+
+        "things": {
+
+            "title": "Qué hacer",
+
+            "text": "Algunas ideas para disfrutar de la zona."
+
+        },
+
+        "nearby": {
+
+            "title": "Sitios cercanos",
+
+            "text": "Lugares que merece la pena visitar cerca."
+
+        },
+
+        "why": {
+
+            "title": "Por qué elegimos este sitio",
+
+            "text": "Este lugar es especial para nosotros porque..."
+
+        },
+
+        "close": "Cerrar"
+
+    },
+
+    "rsvp": {
+        "eyebrow": "RSVP",
+        "title": "¿Nos acompañas?",
+        "text": "Confirma tu asistencia antes del 1 de agosto.",
+        "button": "Confirmar asistencia"
+    },
+    "faq": {
+        "eyebrow": "PREGUNTAS FRECUENTES",
+        "title": "Preguntas frecuentes",
+        "text": "Respuestas a las preguntas más frecuentes."
+    },
+    "footer": {
+        "date": "30 · 07 · 2027"
+    }
+}
